@@ -12,7 +12,7 @@
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>
-              <router-link to="{name: 'home'}">Home</router-link>
+              <router-link to="/">Home</router-link>
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
@@ -22,7 +22,7 @@
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>
-              <router-link to="{name: 'about'}">About</router-link>
+              <router-link to="/about">About</router-link>
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
@@ -32,7 +32,6 @@
     <v-app-bar
       app
       clipped-left
-      color="orange"
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title>Application</v-toolbar-title>
